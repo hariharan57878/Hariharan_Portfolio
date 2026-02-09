@@ -69,7 +69,7 @@ export function Projects(): string {
     <section id="projects" class="section theme-dark" style="border-top: 1px solid var(--c-slate-800);">
       <div class="container">
         <h2 class="animate-on-scroll">Featured Projects</h2>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+        <div class="grid-responsive">
           ${projectCards}
         </div>
       </div>

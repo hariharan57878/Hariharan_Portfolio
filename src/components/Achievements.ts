@@ -33,7 +33,7 @@ export function Achievements(): string {
         <h2 class="animate-on-scroll" style="margin-bottom: 3rem;">Achievements & Leadership</h2>
         <div style="display: grid; gap: 1.5rem; max-width: 800px; margin: 0 auto;">
           ${achievements.map((ach, index) => `
-            <div class="card animate-on-scroll delay-${(index % 3) * 100}" style="display: flex; gap: 1.5rem; align-items: flex-start; padding: 1.5rem; border-radius: var(--radius-md);">
+            <div class="card achievement-card animate-on-scroll delay-${(index % 3) * 100}">
               <div style="background: var(--c-slate-100); padding: 0.75rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
                 <span style="color: var(--c-accent); font-size: 1.25rem;">🏆</span>
               </div>

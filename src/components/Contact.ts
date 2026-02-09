@@ -24,7 +24,7 @@ export function Contact(): string {
           </a>
         </div>
 
-        <a href="#" class="btn btn-primary" style="padding: 1rem 2.5rem; font-size: 1.1rem;">
+        <a href="/resume.pdf" download="Hariharan_P_Resume.pdf" class="btn btn-primary" style="padding: 1rem 2.5rem; font-size: 1.1rem;">
           Download Resume
         </a>
       </div>

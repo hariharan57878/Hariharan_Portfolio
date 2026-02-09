@@ -24,7 +24,7 @@ export function Experience(): string {
   ];
 
   const expItems = experiences.map((exp, index) => `
-    <div class="animate-on-scroll delay-${index * 200}" style="display: flex; gap: 2rem; position: relative;">
+    <div class="animate-on-scroll delay-${index * 200} experience-item">
       <!-- Circle and Line -->
       <div style="display: flex; flex-direction: column; align-items: center;">
         <div style="width: 16px; height: 16px; border-radius: 50%; background: var(--c-accent); z-index: 1;"></div>

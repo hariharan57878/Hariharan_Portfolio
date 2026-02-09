@@ -32,7 +32,7 @@ export function Skills(): string {
     <section id="skills" class="section theme-dark">
       <div class="container">
         <h2 class="animate-on-scroll">Technical Skills</h2>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+        <div class="grid-responsive">
           ${skillCards}
         </div>
       </div>

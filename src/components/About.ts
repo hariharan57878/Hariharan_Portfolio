@@ -6,7 +6,7 @@ export function About(): string {
       <div class="abstract-shape shape-1" style="opacity: 0.3; top: -10%; right: -10%; left: auto;"></div>
       
       <div class="container" style="position: relative; z-index: 1;">
-        <div style="display: grid; grid-template-columns: 1.5fr 1fr; gap: 4rem; align-items: start;">
+        <div class="about-grid">
           <div class="animate-on-scroll">
             <h2 style="text-align: left; margin-bottom: 2rem;">About Me</h2>
             <p style="margin-bottom: 1.5rem; font-size: 1.1rem; color: var(--c-text-muted);">
